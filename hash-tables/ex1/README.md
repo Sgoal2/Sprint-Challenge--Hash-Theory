@@ -16,3 +16,4 @@ output: (3, 1)   # since these are the indices of weights 6 and 15 whose sum equ
 * Think about what we can store in the hash table in order to help us to solve this problem more efficiently. 
 * What if we store each weight in the input list as keys? What would be a useful thing to store as the value for each key? 
 * If we store each weight's list index as its value, we can then check to see if the hash table contains an entry for `limit - weight`. If it does, then we've found the two items whose weights sum up to the `limit`!
+
